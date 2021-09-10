@@ -1,12 +1,12 @@
-const boom = new Audio('../sounds/boom.wav');
-const clap = new Audio('../sounds/clap.wav');
-const hit = new Audio('../sounds/hihat.wav');
-const kick = new Audio('../sounds/kick.wav');
-const openhat = new Audio('../sounds/openhat.wav');
-const ride = new Audio('../sounds/ride.wav');
-const snare= new Audio('../sounds/snare.wav');
-const tink = new Audio('../sounds/tink.wav');
-const tom = new Audio('../sounds/tom.wav');
+const boom = new Audio('sounds/boom.wav');
+const clap = new Audio('sounds/clap.wav');
+const hit = new Audio('sounds/hihat.wav');
+const kick = new Audio('sounds/kick.wav');
+const openhat = new Audio('sounds/openhat.wav');
+const ride = new Audio('sounds/ride.wav');
+const snare= new Audio('sounds/snare.wav');
+const tink = new Audio('sounds/tink.wav');
+const tom = new Audio('sounds/tom.wav');
 
 // ----------------------play sound on click-----------------------------
 const cymbal= document.querySelector('.ride-cymbal');
@@ -31,15 +31,6 @@ cymbal2.addEventListener('click', () =>{
        hit.play();
 })
 
-// function animate() {
-//        document.querySelector('.tom-rack-left-lid').className = ('.animate')
-
-// }
-
-
-
-
-
 const tomRackLeft= document.querySelector('.tom-rack-left');
 
 tomRackLeft.addEventListener('click', () =>{
@@ -48,15 +39,7 @@ tomRackLeft.addEventListener('click', () =>{
        kick.play();
        // let lid=document.querySelector('#try')
        // lid.className = "animate" ;
-
-
-
-
 })
-
-
-
-
 
 const tomRackRight= document.querySelector('.tom-rack-right');
 tomRackRight.addEventListener('click', () =>{
@@ -91,20 +74,6 @@ hihatbottom.addEventListener('click', () =>{
        openhat.play();
 })
 // leftRackLid= document.querySelector('.left-rack-lid');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // --------------------------play sound on clicking the display box------------------
